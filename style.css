@@ -13,6 +13,7 @@
   --fs-07: 0.7rem;
   --fs-08: 0.8rem;
   --fs-17: 1.7rem;
+  --fs-2: 2rem;
   --fs-1: 1rem;
   --fw-500: 500;
   --fw-700: 700;
@@ -70,7 +71,7 @@ h2 {
 h1 {
   font-family: var(--fontFam2);
   color: var(--Very-dark-blue);
-  font-size: var(--fs-17);
+  font-size: var(--fs-2);
   font-weight: var(--fw-700);
   line-height: 1;
   padding: 0.9rem 0 0;
@@ -81,7 +82,7 @@ h1 {
   font-family: var(--fontFam1);
   font-size: var(--fs-08);
   font-weight: var(--fw-500);
-  line-height: 1.5;
+  line-height: 1.8;
   padding: 0.9rem 0 0;
 }
 
@@ -95,7 +96,7 @@ h1 {
   color: var(--Dark-cyan);
   font-family: var(--fontFam2);
   font-weight: var(--fw-700);
-  font-size: var(--fs-17);
+  font-size: var(--fs-2);
 }
 
 .oldPrice {
@@ -109,7 +110,7 @@ h1 {
 
 button {
   display: flex;
-  gap: 10px;
+  gap: 20px;
   width: 100%;
   background-color: var(--Dark-cyan);
   padding: 1rem 0;
@@ -117,7 +118,7 @@ button {
   border: none;
   border-radius: 10px;
   font-family: var(--fontFam1);
-  font-size: var(--fs-08);
+  font-size: var(--fs-1);
   color: var(--White);
   font-weight: var(--fw-700);
   align-items: center;
@@ -130,7 +131,7 @@ button:hover {
 }
 
 button img {
-  width: 5%;
+  width: 7%;
 }
 
 @media (min-width: 750px) {
